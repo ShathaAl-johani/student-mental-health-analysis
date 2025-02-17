@@ -44,3 +44,8 @@ df["What is your CGPA?"] = df["What is your CGPA?"].apply(convert_cgpa_to_numeri
 
 print("\n Summary statistics of 'CGPA' after conversion:")
 print(df["What is your CGPA?"].describe())
+
+
+df.to_csv("cleaned_student_mental_health.csv", index=False)
+
+print("\n Cleaned data saved successfully as 'cleaned_student_mental_health.csv'!")
