@@ -6,10 +6,10 @@ import numpy as np
 # أداء النماذج المختلفة
 models_performance = {
     "Model": ["Random Forest", "Optimized Random Forest", "XGBoost", "Optimized XGBoost"],
-    "Accuracy": [0.74, 0.81, 0.70, 0.71],
-    "Precision": [0.74, 0.81, 0.70, 0.71],
-    "Recall": [0.74, 0.75, 0.70, 0.71],
-    "F1-Score": [0.74, 0.77, 0.70, 0.70]
+    "Accuracy": [0.74, 0.81, 0.70, 0.74],
+    "Precision": [0.74, 0.81, 0.70, 0.75],
+    "Recall": [0.74, 0.75, 0.70, 0.74],
+    "F1-Score": [0.74, 0.77, 0.70, 0.74]
 }
 
 # تحويلها إلى DataFrame
