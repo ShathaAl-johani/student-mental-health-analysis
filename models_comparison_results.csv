@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1-Score
+Random Forest,0.74,0.74,0.74,0.74
+Optimized Random Forest,0.81,0.81,0.75,0.77
+XGBoost,0.7,0.7,0.7,0.7
+Optimized XGBoost,0.71,0.71,0.71,0.7
